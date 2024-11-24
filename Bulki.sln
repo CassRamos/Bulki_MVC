@@ -5,6 +5,12 @@ VisualStudioVersion = 17.12.35514.174 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkiMVC", "BulkiMVC\BulkiMVC.csproj", "{382504FE-FE2B-46F0-A187-3F87F8D0005B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Domain", "WhiteLagoon.Domain\WhiteLagoon.Domain.csproj", "{3EF2B78F-236E-4290-AAD1-D86B75C49D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Application", "WhiteLagoon.Application\WhiteLagoon.Application.csproj", "{731CFE99-D596-40AB-933C-6C3460CE1DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Infrastructure", "WhiteLagoon.Infrastructure\WhiteLagoon.Infrastructure.csproj", "{4398D81D-87A1-4EA7-9CD5-60AB23C48BDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{382504FE-FE2B-46F0-A187-3F87F8D0005B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{382504FE-FE2B-46F0-A187-3F87F8D0005B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{382504FE-FE2B-46F0-A187-3F87F8D0005B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF2B78F-236E-4290-AAD1-D86B75C49D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF2B78F-236E-4290-AAD1-D86B75C49D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF2B78F-236E-4290-AAD1-D86B75C49D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF2B78F-236E-4290-AAD1-D86B75C49D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731CFE99-D596-40AB-933C-6C3460CE1DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731CFE99-D596-40AB-933C-6C3460CE1DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731CFE99-D596-40AB-933C-6C3460CE1DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731CFE99-D596-40AB-933C-6C3460CE1DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4398D81D-87A1-4EA7-9CD5-60AB23C48BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4398D81D-87A1-4EA7-9CD5-60AB23C48BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4398D81D-87A1-4EA7-9CD5-60AB23C48BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4398D81D-87A1-4EA7-9CD5-60AB23C48BDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
